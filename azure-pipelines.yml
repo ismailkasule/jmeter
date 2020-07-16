@@ -17,7 +17,7 @@ jobs:
     inputs:
       targetType: filePath
       filePath: 'jmeter/test.sh'
-      arguments: '$PWD RMP_CreateIncident.jmx $(host)'
+      arguments: 'C:\Users\a172680\OneDrive - Standard Bank\Desktop\Ismail\RMP\Performance Test\azurejmeter\jmeter\jmeter\RMP_CreateIncident.jmx $(host)'
       workingDirectory: jmeter
       failOnStderr: true
   - task: PublishPipelineArtifact@1
