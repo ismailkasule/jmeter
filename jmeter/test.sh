@@ -11,7 +11,7 @@ echo "Host: $host"
 T_DIR=.
 
 # Reporting dir: start fresh
-R_DIR=$T_DIR/report
+R_DIR=./report
 rm -rf $R_DIR 
 mkdir -p $R_DIR
 
