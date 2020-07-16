@@ -7,7 +7,7 @@ mkdir -p ./report
 
 rm -f ./test-plan.jtl ./jmeter.log
 
-./run.sh /jmeter/jmeter -Dlog_level.jmeter=DEBUG \
+/jmeter/run.sh /jmeter -Dlog_level.jmeter=DEBUG \
 	-Jhost=dev-riskmarketplace.standardbank.co.za \
 	-n -t /jmeter/RMP_CreateIncident.jmx -l ./test-plan.jtl -j ./jmeter.log \
 	-e -o ./report
